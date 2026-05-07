@@ -30,8 +30,13 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# env files - 실제 키가 담긴 파일은 절대 커밋 금지
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# .env.example 은 안전한 템플릿이므로 GitHub에 올림 (예외)
 
 # vercel
 .vercel
