@@ -8,4 +8,5 @@
 - Verified `npm run build` succeeds with network access for Google Fonts.
 - Switched the local development command to `next dev --webpack` after Turbopack/PostCSS file-lock errors caused the Next.js runtime overlay.
 - Cleared the stale `.next` development cache and verified the local preview renders without console errors.
+- Updated the source text input placeholder to remove the phrase "수업할".
 - senior_developer_tips.txt: Keep local startup commands documented so non-developer operators can repeat them safely.

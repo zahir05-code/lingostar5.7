@@ -327,7 +327,7 @@ export default function Home() {
                 <div className="p-6">
                   <textarea
                     className="w-full h-32 p-4 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all resize-none text-base"
-                    placeholder="여기에 수업할 영어 지문을 붙여넣으세요..."
+                    placeholder="여기에 영어 지문을 붙여넣으세요..."
                     value={text}
                     onChange={(e) => setText(e.target.value)}
                   />
