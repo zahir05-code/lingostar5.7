@@ -6,4 +6,6 @@
 - Restarted a stuck Next.js dev server after an `EPIPE: broken pipe` error and refreshed the in-app preview.
 - Set `turbopack.root` in `next.config.ts` so production builds do not infer the parent user directory.
 - Verified `npm run build` succeeds with network access for Google Fonts.
+- Switched the local development command to `next dev --webpack` after Turbopack/PostCSS file-lock errors caused the Next.js runtime overlay.
+- Cleared the stale `.next` development cache and verified the local preview renders without console errors.
 - senior_developer_tips.txt: Keep local startup commands documented so non-developer operators can repeat them safely.
