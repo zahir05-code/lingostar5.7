@@ -1,0 +1,9 @@
+2026-05-08
+- Created initial update log for local run governance.
+- Installed dependencies with `npm ci`.
+- Started the Next.js development server locally.
+- Verified `http://localhost:3000` returns HTTP 200.
+- Restarted a stuck Next.js dev server after an `EPIPE: broken pipe` error and refreshed the in-app preview.
+- Set `turbopack.root` in `next.config.ts` so production builds do not infer the parent user directory.
+- Verified `npm run build` succeeds with network access for Google Fonts.
+- senior_developer_tips.txt: Keep local startup commands documented so non-developer operators can repeat them safely.

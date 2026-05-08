@@ -1,0 +1,14 @@
+Task: Run the program locally
+
+WHY:
+- Confirm the project can start in the local development environment for operator review.
+
+Plan:
+- [x] Check required governance files.
+- [x] Confirm package scripts and dependencies.
+- [x] Start the local development server.
+- [x] Report the local URL and any startup issues.
+
+Error/Test Strategy:
+- Use the existing package script instead of inventing a command.
+- If startup fails because dependencies are missing or blocked, report the exact blocker and next action.
