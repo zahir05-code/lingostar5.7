@@ -31,13 +31,13 @@ yarn-error.log*
 .pnpm-debug.log*
 dev-server*.log
 
-# env files - 실제 키가 담긴 파일은 절대 커밋 금지
+# env files - real secrets must never be committed
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
-# .env.example 은 안전한 템플릿이므로 GitHub에 올림 (예외)
+# .env.example is safe to commit as a template
 
 # vercel
 .vercel
